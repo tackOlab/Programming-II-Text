@@ -1,2 +1,5 @@
 * xref:ROOT:chapter01.adoc[chapter01]
 * xref:ROOT:chapter02.adoc[chapter02]
+* xref:ROOT:chapter03.adoc[chapter03]
+* xref:ROOT:chapter04.adoc[chapter04]
+* xref:ROOT:chapter05.adoc[chapter05]
