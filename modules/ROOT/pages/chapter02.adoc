@@ -1,10 +1,3 @@
-:stem: latexmath
-:source-highlighter: coderay
-:example-caption: リスト
-:table-caption: 表
-:figure-caption: 図
-:xrefstyle: short
-
 == 文字と文字列
 ここでは，C言語における文字と文字列の取り扱いを学ぶ．文字型変数，配列，ファイル入出力が新たなトピックである．
 
