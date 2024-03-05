@@ -1,7 +1,7 @@
 name: Programming-II
 title: Programming-II
 version: v1.0
-start_page: ROOT:index.adoc
+start_page: ROOT::index.adoc
 nav:
   - modules/ROOT/nav.adoc
 :lang: ja
