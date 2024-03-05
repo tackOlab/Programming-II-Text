@@ -22,30 +22,3 @@ nav:
 :stem: latexmath
 :docname: = プログラミング基礎及び演習I
 :author: 渡邊 修
-:revnumber: 0.1
-:revdate: 2024/03/04
-
-ifdef::backend-html5[]
-:twoinches: width=144
-// using a role requires adding a corresponding rule to the CSS
-:full-width: role=full-width
-:half-width: role=half-width
-:half-size: role=half-size
-:thumbnail: width=60
-endif::[]
-ifdef::backend-pdf[]
-:twoinches: pdfwidth=2in
-// NOTE use pdfwidth=100vw to make the image stretch edge to edge
-:full-width: pdfwidth=100%
-:half-width: pdfwidth=50%
-// NOTE scale is not yet supported by the PDF converter
-:half-size: pdfwidth=50%
-:thumbnail: pdfwidth=20mm
-endif::[]
-ifdef::backend-docbook5[]
-:twoinches: scaledwidth=2in
-:full-width: scaledwidth=100%
-:half-width: scaledwidth=50%
-:half-size: scale=50
-:thumbnail: scaledwidth=20mm
-endif::[]
