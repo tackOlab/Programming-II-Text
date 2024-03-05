@@ -65,7 +65,7 @@ https://bb.takushoku-u.ac.jp/[Blackboard]を参照．
 [source, c]
 .C言語で書かれたプログラムの例
 ----
-include::../sources/example01.c[a]
+include::examples/example01.c[a]
 ----
 
 このソースコードからコンパイラによって作成された実行ファイルの内容の一部を，16進数を用いて以下に示す．
@@ -89,7 +89,7 @@ OSやアプリケーションプログラムの実行には，非常に多くの
 [#fig:00_directory]
 .Windowsにおけるフォルダの階層構造例
 [align="center"]
-image::../figures/00_fig_directory.png[]
+image::images/00_fig_directory.png[]
  
 ==== ((パス))（PATH）
 <<fig:00_directory>>において，今``User1``というフォルダを閲覧したいとしよう．このとき，ファイルシステム上での``User1``フォルダの位置をパスという．パスを指定する方法として，絶対パス指定と相対パス指定という2つの方法がある．
