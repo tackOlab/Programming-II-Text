@@ -65,7 +65,7 @@ https://bb.takushoku-u.ac.jp/[Blackboard]を参照．
 [source, c]
 .C言語で書かれたプログラムの例
 ----
-include::../examples/example01.c[]
+include::example$example01.c[]
 ----
 
 このソースコードからコンパイラによって作成された実行ファイルの内容の一部を，16進数を用いて以下に示す．
