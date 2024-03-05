@@ -85,7 +85,7 @@ include::../examples/init_array4.c[]
 [#fig:03_2d_array]
 .2次元配列score
 [align="center"]
-image::03_2d_array.png[{half-width}]
+image::03_2d_array.png[]
 
 次のリストは，この2次元配列``score``の行ごとの要素の合計値を求めるプログラムの例である．
 

@@ -86,7 +86,7 @@ char name[10];
 [#fig:02_array]
 .10文字からなる文字列name
 [align="center"]
-image::02_fig_array.png[{half-width}]
+image::02_fig_array.png[]
 
 
 配列の各要素には0から始まる添字と，大かっこを用いて``name[3]``のようにアクセスできる．添字には定数以外にも，整数式を用いることができる．例えば
