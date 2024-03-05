@@ -56,7 +56,7 @@ C言語における文字とは，文字型変数に格納可能なデータを�
 ====
 [source,c,linenums]
 ----
-include::../sources/char_example.c[]
+include::../examples/char_example.c[]
 ----
 ====
 
@@ -86,7 +86,7 @@ char name[10];
 [#fig:02_array]
 .10文字からなる文字列name
 [align="center"]
-image::../figures/02_fig_array.png[{half-width}]
+image::02_fig_array.png[{half-width}]
 
 
 配列の各要素には0から始まる添字と，大かっこを用いて``name[3]``のようにアクセスできる．添字には定数以外にも，整数式を用いることができる．例えば
@@ -105,7 +105,7 @@ a[2*i+1] = 'A';
 ====
 [source,c,linenums]
 ----
-include::../sources/init_array.c[]
+include::../examples/init_array.c[]
 ----
 ====
 
@@ -135,7 +135,7 @@ scanf("%s", name);
 [#fig:02_array_filled]
 .Takushokuと入力後の文字列nameの中身
 [align="center"]
-image::../figures/02_fig_array_filled.png[scaledwidth=50%,role=half-view-width]
+image::02_fig_array_filled.png[scaledwidth=50%,role=half-view-width]
 
 最後の要素にキーボードからの入力ではない``\0``が挿入されていることがわかる．この``\0``は文字列の区切りを表すためのシンボルであり，null記号と呼ばれる．したがって，配列の宣言時には，想定される文字数の最大値+1を配列の要素数とする必要がある．``\0``の役割は，要素数よりも短い文字数の単語が入力された場合に，その単語の終わりを示すことである．
 
@@ -169,7 +169,7 @@ fclose(クローズするファイルのファイルポインタ);
 ====
 [source,c,linenums]
 ----
-include::../sources/getc.c[]
+include::../examples/getc.c[]
 ----
 ====
 
@@ -191,7 +191,7 @@ include::../sources/getc.c[]
 ====
 [source,c,linenums]
 ----
-include::../sources/example_isdigit.c[]
+include::../examples/example_isdigit.c[]
 ----
 ====
 

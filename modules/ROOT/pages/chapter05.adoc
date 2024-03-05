@@ -89,7 +89,7 @@ c = &name[0]; // または c = name;
 ====
 [source,c,linenums]
 ----
-include::../sources/05_pointer_array00.c[]
+include::../examples/05_pointer_array00.c[]
 ----
 ====
 
@@ -111,14 +111,14 @@ include::../sources/05_pointer_array00.c[]
 [#fig:05_pointer_move]
 .ポインタによる配列へのアクセス例(初期化)
 [align="center"]
-image::../figures/05_pointer_move.png[]
+image::05_pointer_move.png[]
 
 [#src:05_array01]
 .ポインタを用いた配列の初期化
 ====
 [source,c,linenums]
 ----
-include::../sources/05_pointer_array01.c[]
+include::../examples/05_pointer_array01.c[]
 ----
 ====
 
@@ -132,7 +132,7 @@ include::../sources/05_pointer_array01.c[]
 ====
 [source,c,linenums]
 ----
-include::../sources/05_pointer_array02.c[]
+include::../examples/05_pointer_array02.c[]
 ----
 ====
 
@@ -141,7 +141,7 @@ NOTE: 11-13行目はまとめて``*dp++ = *sp++;``と書くことが可能．
 [#fig:05_pointer_copy]
 .ポインタによる配列へのアクセス例(コピー)
 [align="center"]
-image::../figures/05_pointer_copy.png[]
+image::05_pointer_copy.png[]
 
 ==== 関数の引数としてのポインタ
 例として，2つの``int``型変数の値を入れ替える関数``swap``を考える．
@@ -155,7 +155,7 @@ C言語では，関数の引数として与えられた値は，そのコピー�
 ====
 [source,c,linenums]
 ----
-include::../sources/05_pointer_swap.c[]
+include::../examples/05_pointer_swap.c[]
 ----
 ====
 
@@ -184,7 +184,7 @@ after : a = 1, b = 2
 ====
 [source,c,linenums]
 ----
-include::../sources/05_pointer_swap2.c[]
+include::../examples/05_pointer_swap2.c[]
 ----
 ====
 
@@ -215,7 +215,7 @@ after : a = 2, b = 1
 ====
 [source,c,linenums]
 ----
-include::../sources/05_pointer_array_args.c[]
+include::../examples/05_pointer_array_args.c[]
 ----
 ====
 
@@ -243,7 +243,7 @@ C言語の戻り値の数の最大値は1である．ポインタを使った参
 ====
 [source,c,linenums]
 ----
-include::../sources/05_pointer_array_avgstd.c[]
+include::../examples/05_pointer_array_avgstd.c[]
 ----
 ====
 

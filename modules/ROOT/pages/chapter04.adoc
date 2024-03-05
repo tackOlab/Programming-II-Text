@@ -43,7 +43,7 @@
 [#fig:04_funcdef]
 .2関数宣言のフォーマット
 [align="center"]
-image::../figures/04_funcdef.png[{half-width}]
+image::04_funcdef.png[{half-width}]
 
 例として，2つの整数値を引数として受け取り，その合計を戻り値として返す関数``add``を考えよう．関数の名前は``add``，戻り値の型は``int``，引数の個数は``int``型2つである．リスト<<src:04_add>>に，この関数の定義，および使用例を示す．
 
@@ -52,7 +52,7 @@ image::../figures/04_funcdef.png[{half-width}]
 ====
 [source,c,linenums]
 ----
-include::../sources/04_add.c[]
+include::../examples/04_add.c[]
 ----
 ====
 
@@ -75,7 +75,7 @@ include::../sources/04_add.c[]
 ====
 [source,c,linenums]
 ----
-include::../sources/04_no_change_args.c[]
+include::../examples/04_no_change_args.c[]
 ----
 ====
 
