@@ -1,3 +1,4 @@
+//:imagesdir: ./images
 == 文字と文字列
 ここでは，C言語における文字と文字列の取り扱いを学ぶ．文字型変数，配列，ファイル入出力が新たなトピックである．
 
@@ -49,7 +50,7 @@ C言語における文字とは，文字型変数に格納可能なデータを�
 ====
 [source,c,linenums]
 ----
-include::../examples/char_example.c[]
+include::../sources/char_example.c[]
 ----
 ====
 
@@ -79,7 +80,7 @@ char name[10];
 [#fig:02_array]
 .10文字からなる文字列name
 [align="center"]
-image::02_fig_array.png[]
+image::02_fig_array.png[{half-width}]
 
 
 配列の各要素には0から始まる添字と，大かっこを用いて``name[3]``のようにアクセスできる．添字には定数以外にも，整数式を用いることができる．例えば
@@ -98,7 +99,7 @@ a[2*i+1] = 'A';
 ====
 [source,c,linenums]
 ----
-include::../examples/init_array.c[]
+include::../sources/init_array.c[]
 ----
 ====
 
@@ -162,7 +163,7 @@ fclose(クローズするファイルのファイルポインタ);
 ====
 [source,c,linenums]
 ----
-include::../examples/getc.c[]
+include::../sources/getc.c[]
 ----
 ====
 
@@ -184,7 +185,7 @@ include::../examples/getc.c[]
 ====
 [source,c,linenums]
 ----
-include::../examples/example_isdigit.c[]
+include::../sources/example_isdigit.c[]
 ----
 ====
 
