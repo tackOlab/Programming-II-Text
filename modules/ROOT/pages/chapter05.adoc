@@ -91,7 +91,7 @@ c = &name[0]; // または c = name;
 ====
 [source,c,linenums]
 ----
-include::../examples/05_pointer_array00.c[]
+include::example$/05_pointer_array00.c[]
 ----
 ====
 
@@ -120,7 +120,7 @@ image::05_pointer_move.png[]
 ====
 [source,c,linenums]
 ----
-include::../examples/05_pointer_array01.c[]
+include::example$/05_pointer_array01.c[]
 ----
 <1> この行がなぜ必要なのか考えてみよう
 ====
@@ -139,7 +139,7 @@ NOTE: ポインタの中身を取り出す``pass:[*]``は，インクリメン�
 ====
 [source,c,linenums]
 ----
-include::../examples/05_pointer_array02.c[]
+include::example$/05_pointer_array02.c[]
 ----
 ====
 
@@ -162,7 +162,7 @@ C言語では，関数の引数として与えられた値は，そのコピー�
 ====
 [source,c,linenums]
 ----
-include::../examples/05_pointer_swap.c[]
+include::example$/05_pointer_swap.c[]
 ----
 ====
 
@@ -191,7 +191,7 @@ after : a = 1, b = 2
 ====
 [source,c,linenums]
 ----
-include::../examples/05_pointer_swap2.c[]
+include::example$/05_pointer_swap2.c[]
 ----
 ====
 
@@ -222,7 +222,7 @@ after : a = 2, b = 1
 ====
 [source,c,linenums]
 ----
-include::../examples/05_pointer_array_args.c[]
+include::example$/05_pointer_array_args.c[]
 ----
 ====
 
@@ -250,7 +250,7 @@ C言語の戻り値の数の最大値は1である．ポインタを使った参
 ====
 [source,c,linenums]
 ----
-include::../examples/05_pointer_array_avgstd.c[]
+include::example$/05_pointer_array_avgstd.c[]
 ----
 ====
 

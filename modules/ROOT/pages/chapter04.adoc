@@ -52,7 +52,7 @@ image::04_funcdef.png[{half-width}]
 ====
 [source,c,linenums]
 ----
-include::../examples/04_add.c[]
+include::example$/04_add.c[]
 ----
 ====
 
@@ -75,7 +75,7 @@ include::../examples/04_add.c[]
 ====
 [source,c,linenums]
 ----
-include::../examples/04_no_change_args.c[]
+include::example$/04_no_change_args.c[]
 ----
 ====
 
