@@ -3,6 +3,6 @@
 * xref:ROOT:chapter02.adoc[文字と文字列]
 * xref:ROOT:chapter03.adoc[配列]
 ** xref:ROOT:chapter03-01.adoc[1次元配列]
-** xref:ROOT:chapter03-02.adoc[多次元配列]
+** xref:ROOT:chapter03.adoc#_多次元配列[多次元配列]
 * xref:ROOT:chapter04.adoc[関数とマクロ]
 * xref:ROOT:chapter05.adoc[ポインタ]
