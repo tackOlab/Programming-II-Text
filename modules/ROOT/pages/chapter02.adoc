@@ -50,7 +50,7 @@ C言語における文字とは，文字型変数に格納可能なデータを�
 ====
 [source,c,linenums]
 ----
-include::../sources/char_example.c[]
+include::../examples/char_example.c[]
 ----
 ====
 
@@ -99,7 +99,7 @@ a[2*i+1] = 'A';
 ====
 [source,c,linenums]
 ----
-include::../sources/init_array.c[]
+include::../examples/init_array.c[]
 ----
 ====
 
@@ -163,7 +163,7 @@ fclose(クローズするファイルのファイルポインタ);
 ====
 [source,c,linenums]
 ----
-include::../sources/getc.c[]
+include::../examples/getc.c[]
 ----
 ====
 
@@ -185,7 +185,7 @@ include::../sources/getc.c[]
 ====
 [source,c,linenums]
 ----
-include::../sources/example_isdigit.c[]
+include::../examples/example_isdigit.c[]
 ----
 ====
 

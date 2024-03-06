@@ -64,7 +64,7 @@ Webページを閲覧:: Webブラウザのプログラムファイルは、サ�
 [source, c]
 .C言語で書かれたプログラムの例
 ----
-include::../sources/example01.c[a]
+include::../examples/example01.c[a]
 ----
 
 このソースコードからコンパイラによって作成された実行ファイルの内容の一部を，16進数を用いて以下に示す．
