@@ -122,6 +122,7 @@ image::05_pointer_move.png[]
 ----
 include::../examples/05_pointer_array01.c[]
 ----
+<1> 6
 ====
 
 
