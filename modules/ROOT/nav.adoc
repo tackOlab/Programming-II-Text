@@ -1,4 +1,5 @@
 * xref:ROOT:index.adoc[講義の内容]
+** xref:ROOT:vscode.adoc[使用するC言語開発環境]
 * xref:ROOT:01/chapter01.adoc[コンピュータとプログラミング]
 * xref:ROOT:chapter02.adoc[文字と文字列]
 ** xref:ROOT:chapter02.adoc#_文字[文字]
