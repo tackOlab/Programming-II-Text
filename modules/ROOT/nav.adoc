@@ -1,5 +1,5 @@
 * xref:ROOT:index.adoc[講義の内容]
-* xref:ROOT:chapter01.adoc[コンピュータとプログラミング]
+* xref:ROOT:01/chapter01.adoc[コンピュータとプログラミング]
 * xref:ROOT:chapter02.adoc[文字と文字列]
 ** xref:ROOT:chapter02.adoc#_文字[文字]
 ** xref:ROOT:chapter02.adoc#_文字列[文字列]
