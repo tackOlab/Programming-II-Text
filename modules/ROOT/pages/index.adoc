@@ -37,7 +37,7 @@
 == 授業の予定
 [#tab:schedule]
 .2024年度講義スケジュール
-[cols="^.^;^.^;^.^;^.^;^.^;^.^",options="header"]
+[cols="^.^;^.^;^.^;^.^;^.^;^.^",options="header",stripes=hover]
 |===
 |回|日付|講義内容|課題No・内容|提出期限課題No|小テスト
 |1|4/16|hogehoge|0|0|
