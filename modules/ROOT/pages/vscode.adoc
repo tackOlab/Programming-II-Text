@@ -55,8 +55,8 @@ include::example$/settings.json[]
 ====
 
 [#tasks.json]
-====
 .tasks.json
+====
 [source,json]
 ----
 include::example$tasks.json[]
@@ -64,8 +64,8 @@ include::example$tasks.json[]
 ====
 
 [#launch.json]
-====
 .launch.json
+====
 [source,json]
 ----
 include::example$launch.json[]
