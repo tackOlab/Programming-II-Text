@@ -49,19 +49,7 @@ CAUTION: これらの設定ファイルは，中身を理解できないうち�
 .settings.json
 ====
 ----
-{
-    "terminal.integrated.defaultProfile.windows": "PowerShell",
-    "terminal.integrated.profiles.windows": {
-        "PowerShell": {
-            "source": "PowerShell",
-            "args": [
-                "-NoExit",
-                "-Command",
-                "chcp 65001"
-            ],
-        }
-    }
-}
+include::example$/settings.json
 ----
 ====
 
