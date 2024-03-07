@@ -29,8 +29,8 @@ vscodeでは，拡張機能をインストールすることで，様々な言�
 
 また，前提とするディレクトリ構成は以下のとおりである．
 
-[listing#dirs-vscode]
 ====
+[listing#dirs-vscode]
 ----
 📒 H: <.>
   📂 Documents <.>
