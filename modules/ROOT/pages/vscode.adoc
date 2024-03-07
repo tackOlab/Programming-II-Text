@@ -38,10 +38,50 @@ vscodeでは，拡張機能をインストールすることで，様々な言�
 **** hogehoge.c
 --
 
-IMPORTANT: かならず``H``ドライブからたどって，``Progs2``フォルダを右クリックし  menu:その他[Codeで開く] を選択し，フォルダを開くこと．さもないとコンパイル時やデバッグ時にエラーメッセージが表示されることがある．
+IMPORTANT: かならず``H``ドライブからたどって，``Progs2``フォルダを右クリックし  menu:その他のプションを確認...[Codeで開く] を選択し，フォルダを開くこと．さもないとコンパイル時やデバッグ時にエラーメッセージが表示されることがある．
 
-CAUTION: `pass:[.vscode]` フォルダの中身には各種設定ファイルが配置される．このフォルダの中のファイルは基本的に触らないこと．
 
+[CAUTION]
+====
+`pass:[.vscode]` フォルダの中身には以下の`tasks.json`と`launch.json`の2つのファイルを配置する．
+
+[#tasks.json]
+[source,json]
+====
+----
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "C/C++: clang.exe build active file",
+            "command": "C:\\tools\\msys64\\clang64\\bin\\clang.exe",
+            "args": [
+                "-fcolor-diagnostics",
+                "-fansi-escape-codes",
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}\\${fileBasenameNoExtension}.exe"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "compiler: C:\\tools\\msys64\\clang64\\bin\\clang.exe"
+        }
+    ]
+}
+----
+====
+
+====
 
 
 
