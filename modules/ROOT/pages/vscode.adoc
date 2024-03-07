@@ -41,12 +41,32 @@ vscodeでは，拡張機能をインストールすることで，様々な言�
 IMPORTANT: かならず``H``ドライブからたどって，``Progs2``フォルダを右クリックし  menu:その他のプションを確認...[Codeで開く] を選択し，フォルダを開くこと．さもないとコンパイル時やデバッグ時にエラーメッセージが表示されることがある．
 
 
-[CAUTION]
-====
-`pass:[.vscode]` フォルダの中身には以下の`tasks.json`と`launch.json`の2つのファイルを配置する．
+`pass:[.vscode]` フォルダの中身には以下の`settings.json`，`tasks.json`および`launch.json`の3つのファイルを配置する．
 
-[#tasks.json]
+CAUTION: これらの設定ファイルは，中身を理解できないうちはいじらないこと．
+
 [source,json]
+.settings.json
+====
+----
+{
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "args": [
+                "-NoExit",
+                "-Command",
+                "chcp 65001"
+            ],
+        }
+    }
+}
+----
+====
+
+[source,json]
+.tasks.json
 ====
 ----
 {
@@ -81,9 +101,29 @@ IMPORTANT: かならず``H``ドライブからたどって，``Progs2``フォル
 ----
 ====
 
+[source,json]
+.launch.json
 ====
-
-
+----
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug",
+            "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "preLaunchTask": "C/C++: clang.exe build active file"
+        }
+    ]
+}
+----
+====
 
 
 
