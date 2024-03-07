@@ -29,14 +29,17 @@ vscodeでは，拡張機能をインストールすることで，様々な言�
 
 また，前提とするディレクトリ構成は以下のとおりである．
 
-[filetree]
---
-* H:/
-** Documents/
-*** Progs2/
-**** .vscode/
-**** hogehoge.c
---
+[listing#dirs-vscode]
+----
+📒 H: <.>
+  📂 Documents <.>
+    📂 Progs2 <.>
+      📁 .vscode <.>
+      📄 repo01.c <.>
+    📂 PRogs <.>
+      📁 .vscode <.>
+      📄 repo01.c <.>
+----
 
 IMPORTANT: かならず``H``ドライブからたどって，``Progs2``フォルダを右クリックし  menu:その他のプションを確認...[Codeで開く] を選択し，フォルダを開くこと．さもないとコンパイル時やデバッグ時にエラーメッセージが表示されることがある．
 
