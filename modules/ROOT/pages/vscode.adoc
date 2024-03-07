@@ -45,11 +45,12 @@ IMPORTANT: かならず``H``ドライブからたどって，``Progs2``フォル
 
 CAUTION: これらの設定ファイルは，中身を理解できないうちはいじらないこと．
 
-[source,json]
+[#settings.json]
 .settings.json
 ====
+[source,json]
 ----
-include::example$/settings.json
+include::example$/settings.json[]
 ----
 ====
 
