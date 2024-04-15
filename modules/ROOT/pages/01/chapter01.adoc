@@ -30,11 +30,13 @@ include::example$example01.c[]
 ....
 blockdiag {
     default_fontsize = 10;
+    beginpoint [shape = beginpoint];
+    endpoint [shape = endpoint];
     A [label = "Write code"];
     B [label = "Compiler/Linker"];
     C [label = "Executable file"];
     D [label = "Found a Bug?", shape = diamond]
-  A -> B -> C -> D;
+  beginpoint -> A -> B -> C -> D -> endpoint;
   D -> A
 }
 ....
