@@ -69,7 +69,7 @@ image::00_fig_directory.png[]
 blockdiag {
     orientation = landscape
     A [label = "C:"];
-    B [label = "\\"];
+    B [label = "¥"];
     C [label = "Windows"]
     D [label = "Program Files"]
     E [label = "Users"]
