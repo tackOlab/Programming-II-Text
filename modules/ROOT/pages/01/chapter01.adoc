@@ -62,8 +62,7 @@ OSやアプリケーションプログラムの実行には，非常に多くの
 [#fig:00_directory]
 .Windowsにおけるフォルダの階層構造例
 [align="center"]
-image::00_fig_directory.png[]
-
+//image::00_fig_directory.png[]
 [blockdiag]
 ....
 blockdiag {
