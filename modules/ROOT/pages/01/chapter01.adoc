@@ -67,12 +67,12 @@ image::00_fig_directory.png[]
 [blockdiag]
 ....
 blockdiag {
-    orientation = portrait
+    orientation = landscape
+    A -> B -> C;
     B -> D;
     B -> E;
     C -> F;
     C -> G;
-    A -> B -> C;
     D -> H;
     D -> I;
     E -> J;
