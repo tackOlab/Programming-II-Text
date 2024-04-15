@@ -30,13 +30,13 @@ include::example$example01.c[]
 ....
 blockdiag {
     default_fontsize = 10;
-    beginpoint [shape = beginpoint];
-    endpoint [shape = endpoint];
+    begin [shape = beginpoint];
+    end [shape = endpoint];
     A [label = "Write code"];
     B [label = "Compiler/Linker"];
     C [label = "Executable file"];
     D [label = "Found a Bug?", shape = diamond]
-  beginpoint -> A -> B -> C -> D -> endpoint;
+  begin -> A -> B -> C -> D -> end;
   D -> A
 }
 ....
@@ -63,7 +63,23 @@ OSやアプリケーションプログラムの実行には，非常に多くの
 .Windowsにおけるフォルダの階層構造例
 [align="center"]
 image::00_fig_directory.png[]
- 
+
+[blockdiag]
+....
+blockdiag {
+    orientation = portrait
+    A -> B -> C;
+    B -> D;
+    B -> E;
+    C -> F;
+    C -> G;
+    D -> H;
+    D -> I;
+    E -> J;
+    E -> K; 
+
+}
+....
 === ((パス))（PATH）
 <<fig:00_directory>>において，今``User1``というフォルダを閲覧したいとしよう．このとき，ファイルシステム上での``User1``フォルダの位置をパスという．パスを指定する方法として，絶対パス指定と相対パス指定という2つの方法がある．
 
