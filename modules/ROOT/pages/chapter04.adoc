@@ -130,7 +130,7 @@ include::example$/04_no_change_args.c[]
 #define	multiply(a, b) (a * b)
 ----
 
-というマクロを定義したとする．$3\times 7$の計算結果を期待して
+というマクロを定義したとする．3×7の計算結果を期待して
 
 [source,c]
 ----
