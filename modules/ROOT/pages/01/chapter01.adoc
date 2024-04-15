@@ -30,9 +30,9 @@ include::example$example01.c[]
 ....
 blockdiag {
     default_fontsize = 10;
-    A [label = "プログラム作成"];
-    B [label = "コンパイラ"];
-    C [label = "実行形式ファイル"];
+    A [label = "Write code"];
+    B [label = "Compiler/Linker"];
+    C [label = "Executable file"];
   A -> B -> C;
 }
 ....
