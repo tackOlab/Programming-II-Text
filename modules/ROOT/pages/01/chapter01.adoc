@@ -34,7 +34,8 @@ blockdiag {
     B [label = "Compiler/Linker"];
     C [label = "Executable file"];
     D [label = "Found a Bug?", shape = diamond]
-  A -> B -> C -> D;
+  A -> B -> C -> D ->;
+  D -> A
 }
 ....
 
