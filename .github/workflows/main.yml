@@ -1,17 +1,21 @@
-on:
-  push:
-    branches:
-      - main
+name: Repository dispatch run
 
+push:
+  branches:
+    - main
 jobs:
-  build:
+  run-repository-dispatch:
     runs-on: ubuntu-latest
     steps:
-    - name: Create GitHub dispatch event
-      run: |
-        curl --request POST 'https://api.github.com/repos/tackOlab/Programming-II-Text-playbook/dispatches' \
-        --header 'Authorization: Bearer ${{secrets.Proen2}}' \
-        --header 'Content-Type: application/json' \
-        --data-raw '{
-          "event_type": "repository-a-updated"
-        }'
+      - name: Curl Api
+        run: |
+          TOKEN=${{ secrets.MY_PAT }}
+          OWNER=${{ secrets.OWNER }}
+          REPO=${{ secrets.TARGET_REPO }}
+
+          curl \
+            -X POST \
+            -H "Authorization: token $TOKEN" \
+            -H "Accept: application/vnd.github.v3+json" \
+            https://api.github.com/repos/$OWNER/$REPO/dispatches \
+            -d '{"event_type":"on-demand-test","client_payload":{"env": "dev"}}'
