@@ -9,7 +9,7 @@ jobs:
     steps:
     - name: Create GitHub dispatch event
       run: |
-        curl --request POST 'https://api.github.com/repos/username/repository-b-name/dispatches' \
+        curl --request POST 'https://api.github.com/repos/tackOlab/Programming-II-Text-playbook/dispatches' \
         --header 'Authorization: Bearer ${{secrets.Proen2}}' \
         --header 'Content-Type: application/json' \
         --data-raw '{
