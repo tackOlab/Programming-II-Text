@@ -27,7 +27,7 @@ void input(void) {
   FILE *fp;
 
   if ((fp = fopen("report3.dat", "r")) == NULL) {
-    　/* エラー処理を書く */
+    /* エラー処理を書く */
   }
   fscanf(fp, "%d", &num_subjects); // 科目数の読み込み
   printf("Number of subjects = %d\n", num_subjects);
