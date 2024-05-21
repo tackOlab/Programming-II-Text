@@ -9,3 +9,5 @@
 ** xref:ROOT:chapter03.adoc#_多次元配列[多次元配列]
 * xref:ROOT:chapter04.adoc[関数とマクロ]
 * xref:ROOT:chapter05.adoc[ポインタ]
+* xref:ROOT:reports.adoc[レポート課題の雛形]
+** xref:ROOT:reports.adoc#_No.3[No.3]

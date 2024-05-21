@@ -1,0 +1,9 @@
+= レポート課題の雛形
+
+== No.3
+====
+[source,c,linenums]
+----
+include::example$/report3.c[]
+----
+====
