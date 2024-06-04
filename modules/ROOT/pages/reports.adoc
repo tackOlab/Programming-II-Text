@@ -7,3 +7,11 @@
 include::example$/report3.c[]
 ----
 ====
+
+== No.4
+====
+[source,c,linenums]
+----
+include::example$/report4.c[]
+----
+====
