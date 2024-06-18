@@ -15,3 +15,11 @@ include::example$/report3.c[]
 include::example$/report4.c[]
 ----
 ====
+
+== No.5
+====
+[source,c,linenums]
+----
+include::example$/report5new.c[]
+----
+====
