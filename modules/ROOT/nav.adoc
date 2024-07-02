@@ -11,3 +11,6 @@
 * xref:ROOT:chapter05.adoc[ポインタ]
 * xref:ROOT:reports.adoc[レポート課題の雛形]
 ** xref:ROOT:reports.adoc#_No.3[No.3]
+** xref:ROOT:reports.adoc#_No.4[No.4]
+** xref:ROOT:reports.adoc#_No.5[No.5]
+** xref:ROOT:reports.adoc#_No.6[No.6]
