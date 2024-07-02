@@ -1,6 +1,7 @@
 = レポート課題の雛形
 
 == No.3
+[#_No.3]
 ====
 [source,c,linenums]
 ----
@@ -9,6 +10,7 @@ include::example$/report3.c[]
 ====
 
 == No.4
+[#_No.4]
 ====
 [source,c,linenums]
 ----
@@ -17,6 +19,7 @@ include::example$/report4.c[]
 ====
 
 == No.5
+[#_No.5]
 ====
 [source,c,linenums]
 ----
@@ -25,6 +28,7 @@ include::example$/report5new.c[]
 ====
 
 == No.6
+[#_No.6]
 ====
 [source,c,linenums]
 ----
