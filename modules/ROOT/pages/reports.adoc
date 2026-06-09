@@ -14,7 +14,7 @@ include::example$/report3.c[]
 ====
 [source,c,linenums]
 ----
-include::example$/report4.c[]
+include::example$/report4new.c[]
 ----
 ====
 
